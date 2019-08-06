@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/*
+   Final Project
+
+   Content StyleSheet
+   Author: Aashit Patel
+   Date:   11/13/2017
+
+*/
+
+/* style for content */
+
+div.rname {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+}
+
+img#brunch  {
+    display: block;
+    float: left;
+    width: 40%;
+    width: 400px;
+    box-shadow: black 4px 0px 10px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+label.blabel {
+    font-size: 40px;
+    color: white;
+    box-shadow: black 4px 0px 20px;
+    background-color: rgba(70,92,139,0.5);
+}
+
+ul.box  {
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    float: right;
+    height: 400px;
+}
+
+header  {
+    font-size: 2em;
+    color: white;
+    font-style: italic;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+ul.box > li {
+    color: white;
+    list-style-type: circle;
+    font-size: 1.2em;
+}
+
+/*
+ li::before  {
+    content: ""\2713\0020";
+}
+*/
+
+div.style-sub-1 {
+  background:rgba(0,0,0,0.5);
+
+}
+select#breakfast
+{
+    background:rgba(0,0,0,0.5);
+    border-color: white dotted;
+    color: white;
+    margin-left: 10px;
+    height: 30px;
+}
+
+div.direction {
+    display: block;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+p {
+  font-size: 1.2em;
+}

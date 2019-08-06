@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*
+   Final Project
+
+   Contact Us stylesheet
+   Author: Aashit Patel
+   Date:   11/13/2017
+
+*/
+/* style for contact us */
+body  {
+    height: 100%;
+    width: 100%;
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle, #9099A2, #233237, #18121E); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #9099A2, #233237, #18121E); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(circle, #9099A2, #233237, #18121E); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #9099A2, #233237, #18121E); /* Standard syntax */
+}
+
+h1  {
+      font-size: 40px;
+  }
+
+div#contact {
+      height: 70%;
+      width: 100%;
+  }
+
+form.cform {
+    display: block;
+    height: 70%;
+    width: 43%;
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center !important;
+    border-right: white dotted;
+}
+
+table.ctable {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 60%;
+}
+
+tr  {
+    text-align: left;
+}
+
+th{
+    display: block;
+}
+
+/* text area styles */
+
+textarea {
+    height: 120px;
+    width: 300px;
+    word-wrap: break-word;
+    width: 300px;
+    word-break: break-all;
+    background: transparent;
+    border-style: dotted solid;
+}
+
+input {
+    position: relative;
+    border-style: dotted;
+    border-color: white;
+    width: 300px;
+    background: transparent;
+    margin-top: 5px;
+}
+
+/* for submit button */
+button  {
+    background-color: #465c8B;
+    color: white;
+    border-style: dashed;
+    box-shadow: black 4px 0px 30px;
+    height: 30px;
+    width: 100px;
+}
+
+/* Style for Feedback form */
+
+form.feedback  {
+  display: block;
+  height: 70%;
+  width: 55%;
+  float: left;
+  color: white !important;
+  font-size: 20px;
+  text-align: center !important;
+  margin-left: 20px;
+}
+
+form.feedback td  {
+    width: 50%;
+}
+input.radio {
+    position: relative;
+    width: auto;
+}
+
+input[type=checkbox]  {
+    width: auto;
+}

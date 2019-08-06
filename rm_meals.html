@@ -1,0 +1,131 @@
+<!doctype html>
+<!--
+   Final Project
+
+   Meals Page
+   Author: Aashit Patel
+   Date:   11/13/2017
+    -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Master</title>
+  <link href="css/basic_style.css" rel="Stylesheet" />
+  <link href="css/content.css"  rel="stylesheet"  />
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav role="navigation">
+
+    <div id="title">
+      <a href="rm_home.html" class="navtitle">&#8594; Recipe Master &#8592;</a>
+    </div>
+
+    <div id="navlist">
+      <ul>
+        <li class="nav"><a class="color_animation" href="rm_home.html">ABOUT US</a></li>
+        <li class="nav"><a class="color_animation" href="rm_breakfasts.html">BREAKFASTS</a></li>
+        <li class="nav"><a class="navactivecolor_animation" href="rm_meals.html">MEALS</a></li>
+        <li class="nav"><a class="color_animation" href="rm_desserts.html">DESSERTS</a></li>
+        <li class="nav"><a class="color_animation" href="rm_Specials.html">SPECIALS</a></li>
+        <li class="nav"><a class="color_animation" href="rm_contact.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- content start  -->
+      <div class="rname" >
+          <label> Which Meal Recipe you are looking for? Select one from list</label>
+          <select size="1" id="breakfast" class=" validate['required']" title="" type="select" name="style">
+          <option value="">----Choose A Meal----</option>
+          <option value="B1">Bacon and Hash Brown "Quesadilla" with Eggs</option>
+          <option value="b2">B2</option>
+          <option value="b3">B3</option>
+        </select>
+        <div class="clear"></div>
+      </div>
+      <hr></hr>
+
+  <!-- content hiddent untill seleted -->
+      <div id="B1"  class="style-sub-1"  style="display: none;" name="stylesub1" onchange="ChangeDropdowns(this.value)">
+            <center><label class="blabel">&nbsp;Bacon and Hash Brown "Quesadilla" with Eggs&nbsp; </label></center><br>
+            <img src="imgs/brunchQuesadilla.jpeg" id="brunch" shape="circle"/>
+            <ul class="box"><header>Ingredients</header><br>
+              <li>2 large russet potatoes (2 pounds), scrubbed</li>
+              <li>Kosher salt and freshly ground black pepper</li>
+              <li>4 tablespoons canola oil, plus more for brushing</li>
+              <li>2 large Spanish onions, halved and thinly sliced</li>
+              <li>1 poblano chile, roasted and finely diced</li>
+              <li>1 tablespoon plus 2 teaspoons ancho chile powder</li>
+              <li>13 pound thick-cut bacon, diced</li>
+              <li>12 (6-inch) flour tortillas</li>
+              <li>2 12 cups grated Monterey Jack cheese</li>
+              <li>2 tablespoons unsalted butter</li>
+              <li>4 large eggs</li>
+              <li>2 tablespoons finely chopped fresh chives</li>
+              <li>Fresh Tomato Salsa, recipe follows</li>
+            </ul>
+            <div class="direction">
+            <header>Directions</header>
+                        <p>&#8594;
+                          Preheat the oven to 425 degrees F.
+                        </p>
+
+                        <p>&#8594;
+                          Heat 2 tablespoons of the oil in a large saute pan over medium heat. Add the onions, season with salt and pepper, and cook, stirring occasionally, until golden brown and caramelized, about 30 minutes.
+                        </p>
+
+                        <p>&#8594;
+                          Heat the remaining 2 tablespoons oil in a large nonstick saute pan over high heat, add the potatoes, and cook until golden brown. Stir in the onions, poblano, and 1 tablespoon of the ancho powder, season with salt and pepper, and cook until just warmed through, about 2 minutes.
+                        </p>
+
+                        <p>&#8594;
+                          Cook the bacon in a skillet over medium heat until browned and crisp, about 8 minutes. Scoop out and transfer to a plate lined with paper towels to drain.
+                        </p>
+
+                        <p>&#8594;
+                          Lay out 8 of the tortillas on a work surface. Divide the hash browns, bacon, and cheese among the tortillas. Stack half of the tortillas on top of the remaining topped ones to create 4 double stacks. Top each with one of the remaining 4 tortillas. Brush the tops with a little oil and sprinkle with the remaining 2 teaspoons ancho powder.
+                        </p>
+
+                        <p>&#8594;
+                          Transfer the quesadillas to a large baking sheet and bake until golden brown and the cheese has melted, 8 to 10 minutes.
+                        </p>
+
+                        <p>&#8594;
+                          When the quesadillas are nearly ready, melt the butter in a large nonstick saute pan over medium heat. Carefully crack the eggs into the pan, season with salt and pepper, and cook until the whites are set but the yolks are still runny, about 2 minutes.
+                        </p>
+
+                        <p>&#8594;
+                          Top each quesadilla with a fried egg, some of the tomato salsa, and a sprinkling of chives.
+                        </p>
+                      </div>
+        </div>
+        <!-- content end  -->
+
+  <!-- Footer -->
+     <footer>
+       <div id="footer">
+        <div class="social">
+             <a href="http://www.fb.com/patel7a" class="facebook" title="Facebook" target="_blank"><img src="imgs/facebook.png" class="simg">Facebook</a>
+
+             <a href="http://twitter.com/" class="twitter" title="Twitter" target="_blank"><img src="imgs/twitter.png" class="simg">Twitter</a>
+
+             <a href="https://plus.google.com/+AashitPatel7/" class="gplus" title="Google +" target="_blank"><img src="imgs/googlePlus.png" class="simg">Google+</a>
+
+             <a href="http://www.linkedin.com/" class="linkedin" title="LinkedIn" target="_blank"><img src="imgs/linkedin.png" class="simg">linkedin</a>
+
+             <a href="http://instagram.com/aashit.7" class="insta" title="Instagram" target="_blank"><img src="imgs/instagram.png" class="simg">Instagram</a>
+         </div>
+         <div class="f2">
+           <p>Recipe Master 2017&copy;</p>
+         </div>
+       </div>
+
+     </footer>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script src="js/box.js" type="text/javascript"></script>
+</body>
+
+</html>

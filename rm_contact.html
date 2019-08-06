@@ -1,0 +1,141 @@
+<!doctype html>
+<!--
+   Final Project
+
+   Contact Page
+   Author: Aashit Patel
+   Date:   11/13/2017
+    -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Master</title>
+  <link href="css/basic_style.css" rel="Stylesheet" />
+  <link href="css/contact.css"  rel="stylesheet"  />
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <script>
+  function q() {
+      alert("Thank you for contacting us. Your information has been sent. Wait for 24 hours for reply.");
+  }
+
+  function p() {
+      alert("Thank you for your Feedback. It means a lot to me.");
+  }
+  </script>
+</head>
+
+<body>
+  <nav role="navigation">
+
+    <div id="title">
+      <a href="rm_home.html" class="navtitle">&#8594 Recipe Master &#8592;</a>
+    </div>
+
+    <div id="navlist">
+      <ul>
+        <li class="nav"><a class="color_animation" href="rm_home.html">ABOUT US</a></li>
+        <li class="nav"><a class="color_animation" href="rm_breakfasts.html">BREAKFASTS</a></li>
+        <li class="nav"><a class="color_animation" href="rm_meals.html">MEALS</a></li>
+        <li class="nav"><a class="color_animation" href="rm_desserts.html">DESSERTS</a></li>
+        <li class="nav"><a class="color_animation" href="rm_specials.html">SPECIALS</a></li>
+        <li class="nav"><a class="navactivecolor_animation" href="rm_contact.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div>
+  <!-- Contact form -->
+  <form method="post" class="cform">
+    <h1> Contact Us </h1>
+    <table align=center class="ctable">
+      <tr>
+        <th><label>First Name</label></th>
+        <td><input type="text"  name="fname" required/></td>
+    </tr>
+    <tr>
+      <th><label> Last Name</label></th>
+      <td><input type="text"  name="lname"/></td>
+    </tr>
+    <tr>
+      <th><label> E-mail </label></th>
+      <td><input type="email" required name="mail"/></td>
+    </tr>
+    <tr>
+      <th><label>Contact Number</label></th>
+      <td><input type="tel" name="cnumber"/></td>
+    </tr>
+    <tr>
+      <th><label> What do you want to ask? </label></th>
+      <td><textarea type="text" name="question"></textarea></td>
+    </tr>
+    </table>
+
+    <button type="submit" name="submit" value="Submit" onclick="q()">Submit</button>
+
+    <p> *You can also email us on <a href="mailto:apatel0610@oakton.edu" target="_blank"><cite>apatel0610@oakton.edu</cite></a></email> directly </p>
+  </form>
+
+<!-- Feedback Form -->
+    <form class="feedback">
+      <h1> Feedback Form </h1>
+      <table >
+        <tr>
+          <th>Name</th>
+          <td><input type="text"  name="name" required></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email" name="mail" required></td>
+        </tr>
+        <tr>
+          <th>Overall Experiance</th>
+          <td><input type="radio" value="Best" name="exp" class="radio">Best&nbsp;&nbsp;&nbsp;
+              <input type="radio" value="Worst" name="exp" class="radio">Worst&nbsp;&nbsp;&nbsp;
+              <input type="radio" value="Good" name="exp" class="radio">Good&nbsp;&nbsp;&nbsp;
+              <input type="radio" value="Average" name="exp" class="radio">Average&nbsp;&nbsp;&nbsp;
+          </td>
+        </tr>
+        <tr>
+          <th> Which things did you like about this web-site?<em>(*Select all that you like)</em></th>
+          <td><input type="checkbox" name="Design" value="design">Design&nbsp;&nbsp;&nbsp;
+              <input type="checkbox" name="Colors" value="colors">Colors&nbsp;&nbsp;&nbsp;
+              <input type="checkbox" name="Structure" value="structure">Structure&nbsp;&nbsp;&nbsp;<br>
+              <input type="checkbox" name="Details" value="details">Details&nbsp;&nbsp;&nbsp;
+              <input type="checkbox"  name="other" value="other">Other&nbsp;<input type="text" name="textother">
+          </td>
+        </tr>
+        <tr>
+          <th>Comments</th>
+          <td><textarea name="comments"></textarea></td>
+        </tr>
+      </table>
+      <button type="submit" name="submit" value="Submit" onclick="p()">Submit</button>&emsp;&emsp;&emsp;
+      <button type="submit" name="reset" value="reset">Reset</button>
+    </form>
+
+</div>
+
+  <!-- Footer -->
+     <footer>
+       <div id="footer">
+        <div class="social">
+             <a href="http://www.fb.com/patel7a" class="facebook" title="Facebook" target="_blank"><img src="imgs/facebook.png" class="simg">Facebook</a>
+
+             <a href="http://twitter.com/" class="twitter" title="Twitter" target="_blank"><img src="imgs/twitter.png" class="simg">Twitter</a>
+
+             <a href="https://plus.google.com/+AashitPatel7/" class="gplus" title="Google +" target="_blank"><img src="imgs/googlePlus.png" class="simg">Google+</a>
+
+             <a href="http://www.linkedin.com/" class="linkedin" title="LinkedIn" target="_blank"><img src="imgs/linkedin.png" class="simg">linkedin</a>
+
+             <a href="http://instagram.com/aashit.7" class="insta" title="Instagram" target="_blank"><img src="imgs/instagram.png" class="simg">Instagram</a>
+         </div>
+         <div class="f2">
+           <p>Recipe Master 2017&copy;</p>
+         </div>
+       </div>
+
+     </footer>
+
+</body>
+
+</html>

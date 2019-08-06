@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/*
+   Final Project
+
+   Html Style Sheet
+   Author: Aashit Patel
+   Date:   11/13/2017
+
+*/
+
+/* html background for welcome page */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body  {
+    background: url('../imgs/wc.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Style for arrow image
+img {
+      height: 100px;
+      width: 100px;
+    }
+*/
+/* Navigation style */
+
+nav {
+    width: 100%;
+    height: 13%;
+    background: #465c8B !important;
+    /*margin: 0 30px 0 30px;*/
+    text-align: center;
+  }
+
+nav div#title {
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Pacifico';
+    font-size: 40px;
+    text-align: left;
+    text-shadow: black 3px 0px 25px;
+    float: left;
+    text-decoration: initial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav div#navlist {
+  display: inline-block;
+  width:65%;
+  margin-top: 20px;
+  float: right;
+  font-weight: 500;
+  color: white !important;
+}
+
+li.nav {
+      word-spacing: 5px !important;
+      list-style-type: none;
+      display: inline;
+      margin-left: 30px;
+      margin-right: 10px;
+  }
+
+.color_animation {
+    text-decoration: initial;
+    /*word-spacing: 5px;
+    margin-right: -30px;
+    margin-left: -30px !important; */
+    color: white !important;
+  }
+
+.color_animation:hover{
+    color: #9BE86F !important;
+    text-shadow: black 3px 0px 10px;
+}
+
+/* Active navigation style */
+
+.navactivecolor_animation {
+   border-bottom : 2px solid #96E16B;
+   text-decoration: initial;
+   text-shadow: black 3px 0px 10px;
+   /*margin-right: -30px;
+   margin-left: -30px !important; */
+   color: white !important;
+}
+
+/* Footer style */
+
+img.simg  {
+    position: relative;
+    width:25px;
+    height:25px;
+    vertical-align: sub;
+}
+
+div.social {
+    display: block;
+    width: 100%;
+    height: 35px;
+    word-spacing: 100px;
+    font-size: 1em;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+
+div#footer {
+    display: block;
+   position: fixed !important;
+   height:65px;
+   left: 0px;
+   bottom: 0px;
+   width: 100%;
+   background: #465c8B !important;
+   color: white;
+   text-align: center;
+ }
+
+ div.f2 p {
+   display: block;
+   font-size: 1.2em;
+   position: relative;
+   margin-top: 5px;
+ }
+
+/* Media Queries */
+
+@media only screen and (max-width: 640px) {
+
+nav {
+    display: none;
+    height: auto;
+}
+  nav div#title {
+      display: none;
+      width: 100%;
+      font-size: 5px;
+      float: none;
+  }
+
+    nav div#navlist {
+      display: none;
+      width:100%;
+      float: none;
+   }
+
+   li.nav {
+         display: none;
+     }
+
+}
